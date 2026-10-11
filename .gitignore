@@ -1,0 +1,35 @@
+# Virtualenv (tangkap semua variasi huruf besar/kecil)
+.venv/
+.venV/
+.VENV/
+env/
+venv/
+
+# TripoSR (clone lokal)
+TripoSR/
+
+# Model & cache Hugging Face
+.cache/
+*.pt
+*.safetensors
+*.ckpt
+*.onnx
+*.glb
+*.gltf
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
